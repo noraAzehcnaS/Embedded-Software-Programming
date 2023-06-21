@@ -1,0 +1,28 @@
+:root {
+    --night-blue: #0B2447;
+    --dark-blue: #19376D;
+    --sea-blue: #576CBC;
+    --light-blue:#A5D7E8;
+  }
+
+  body{
+    background-color: var(--night-blue);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  a:link {
+    color: var(--sea-blue);
+    text-decoration: none;
+  }
+
+  .card-container{
+    border-style: solid;
+    display: flex;
+  }
+
+  .card{
+    width: 30%;
+    height: 30px;
+    border-style: solid;
+  }
